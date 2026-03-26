@@ -1,7 +1,7 @@
 import React from 'react';
 import { HERO_CONTENT } from '../Constants';
-import profilePic from "../assets/JRushProfile.png";
-import { delay, motion } from "framer-motion";
+import profilePic from "../assets/propic.png";
+import { motion } from "framer-motion";
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -31,7 +31,7 @@ const Hero = () => {
                 variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                className='my-2 max-w-xl py-6 font-light tracking-tight'>{HERO_CONTENT}</motion.p>
+                className='my-2 max-w-xl py-6 text-xl font-normal leading-relaxed tracking-tight text-neutral-300'>{HERO_CONTENT}</motion.p>
             </div>
         </div>
         <div className='w-full lg:w-1/2 lg:p-8'>
@@ -40,7 +40,10 @@ const Hero = () => {
                 initial={{x: 100, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration:1, delay: 1.2}}
-                src={profilePic} alt='Jairaj Ameria'></motion.img>
+                src={profilePic}
+                alt='Jairaj Ameria'
+                className="rounded-2xl"
+                />
             </div>
         </div>
     </div>

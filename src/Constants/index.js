@@ -1,7 +1,6 @@
-import project1 from "../assets/Projects/project-1.jpg";
-import project2 from "../assets/Projects/project-2.jpg";
-import project3 from "../assets/Projects/project-3.jpg";
-import project4 from "../assets/Projects/project-4.jpg";
+import dsywImg from "../assets/dsyw.jpeg";
+import kheloImg from "../assets/khelo.jpeg";
+import clickImg from "../assets/click.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,37 +39,33 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "DSYW MP",
+    image: dsywImg,
+    url: "https://dsywmp.gov.in/",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "The Directorate of Sports and Youth Welfare website is the official portal of the Madhya Pradesh government for sports and youth development.",
+    technologies: ["ASP.net", "Javascript", "HTML", "CSS", "State goverment portal"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "KHELO MP",
+    image: kheloImg,
+    url: "https://kheloindia.gov.in/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "The Khelo India programme, launched in 2016–17, promotes sports at all levels, with integrated state-level digital infrastructure implemented on the Khelo MP website.",
+    technologies: ["ASP.net", "Javascript", "HTML", "CSS", "State goverment portal"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "CLICK FOX MEDIA",
+    image: clickImg,
+    url: "https://clickfoxmedia.com/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Click Fox Media is a digital marketing agency focused on video content, social media, and brand growth, which we have built from scratch.",
+    technologies: ["React", "Javascript", "HTML", "CSS", "Api", "Brand growth"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "P/51, Liberty Colony, Samardha, Bhopal (M.P)",
   phoneNo: "+91 79990 70296 ",
-  email: "me@example.com",
+  email: "jairajameria@gmail.com",
 };
